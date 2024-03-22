@@ -1,0 +1,61 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.bg-body-secondary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.dog {
+  border-radius: 50%;
+  border: 5px solid rgba(167, 151, 130, 0.119);
+}
+
+#testimonial {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.shadow-container {
+   box-shadow: -4px -12px 12px 1px rgba(0, 0, 0, 0.1), 
+                0px 12px 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-shadow {
+  box-shadow: inset -11px 10px 12px 0px rgba(0, 0, 0, 0.5)
+}
+
+.shadow-container-1 {
+  box-shadow: 4px 12px 12px 1px rgba(0, 0, 0, 0.258);
+}
